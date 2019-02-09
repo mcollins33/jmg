@@ -8,6 +8,14 @@
 	text-shadow: 1px 1px 4px red;
 }
 
+.navbar-item {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.border-b {
+	border-bottom: 5px solid black;
+}
+
 .border-b:hover {
 	border-bottom: 5px solid red;
 }

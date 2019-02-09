@@ -4,7 +4,8 @@ import './Hero.css';
 const Hero = () => {
 
     return (
-<div className="hero is-fullheight">
+
+<div id="hero" className="hero is-fullheight">
 	<div className="hero-body">
 		<div className="container has-text-centered">
 			<p className="title">

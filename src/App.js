@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <Navbar />
       <Hero />
       <Card />
+      <Footer />
         
       </div>
     );

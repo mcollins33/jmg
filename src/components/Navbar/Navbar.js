@@ -4,8 +4,8 @@ import './Navbar.css';
 const Navbar = () => {
 
     return (
-<div className="container is-fluid">
-<nav className="navbar" role="navigation" aria-label="main navigation">
+<div id="navbar" className="container">
+<nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
     <a className="navbar-item red" href="">
       <h1>Your logo/company name here</h1>
@@ -20,16 +20,17 @@ const Navbar = () => {
 
   <div className="navbar-menu">
     <div className="navbar-end">
-      <a className="navbar-item border-b red">
-        Home
+      <a href="#navbar" className="navbar-item border-b red">
+        HOME
       </a>
-
-      <a className="navbar-item border-b red">
-        Documentation
+      <a href="#about" className="navbar-item border-b red">
+        ABOUT
       </a>
- 
-      <a className="navbar-item border-b red">
-        Contact
+      <a href="#card" className="navbar-item border-b red">
+        SERVICES
+      </a>
+      <a href="#footer" className="navbar-item border-b red">
+        CONTACT
       </a>
     </div>
   </div>
