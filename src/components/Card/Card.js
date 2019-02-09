@@ -5,12 +5,12 @@ const Navbar = () => {
 
     return (
 
-<div className="container margin-top-50">
+<div  id="card" className="container margin-top-100">
 	<div className="columns">
 		<div className="column">
 			<div className="card">
 				<div className="card-header-icon">
-					<i className="fas fa-industry fa-5x"></i>
+					<i className="fas fa-hard-hat fa-5x"></i>
 				</div>
 				<div className="card-content">
 				    <div className="media-content">
@@ -30,7 +30,7 @@ const Navbar = () => {
 		<div className="column">
 			<div className="card">
 				<div className="card-header-icon">
-					<i className="far fa-lightbulb fa-5x"></i>
+					<i className="fas fa-house-damage fa-5x"></i>
 				</div>
 				<div className="card-content">
 				    <div className="media-content">
@@ -69,8 +69,8 @@ const Navbar = () => {
 		</div>
 	</div>
 	<i className="fas fa-bolt fa-5x"></i>
-  <i className="fas fa-hard-hat fa-5x"></i>
-  <i className="fas fa-house-damage fa-5x"></i>
+  <i className="far fa-lightbulb fa-5x"></i>
+  <i className="fas fa-industry fa-5x"></i>
   <i className="fas fa-laptop fa-5x"></i>
   <i className="fas fa-plug fa-5x"></i>
   <i className="fas fa-oil-can fa-5x"></i>
