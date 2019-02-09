@@ -1,7 +1,16 @@
 .card {
-	background-color: #555;
+	background-color: #e6e6e6;
 }
 
 .fas, .far {
-	color: white;
+	color: #262626;
+}
+
+i {
+	margin-top: 25px;
+}
+
+.media-content {
+	margin-bottom: 25px;
+	text-align: center;
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
 <div className="container is-fluid">
 <nav className="navbar" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
-    <a className="navbar-item" href="https://bulma.io">
+    <a className="navbar-item red" href="">
       <h1>Your logo/company name here</h1>
     </a>
 
@@ -20,46 +20,20 @@ const Navbar = () => {
 
   <div className="navbar-menu">
     <div className="navbar-end">
-      <a className="navbar-item">
+      <a className="navbar-item border-b red">
         Home
       </a>
 
-      <a className="navbar-item">
+      <a className="navbar-item border-b red">
         Documentation
       </a>
-
-      <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link is-arrowless">
-          More
-        </a>
-
-        <div className="navbar-dropdown">
-          <a className="navbar-item">
-            About
-          </a>
-          <a className="navbar-item">
-            Jobs
-          </a>
-          <a className="navbar-item">
-            Contact
-          </a>
-          <hr className="navbar-divider" />
-          <a className="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
+ 
+      <a className="navbar-item border-b red">
+        Contact
+      </a>
     </div>
   </div>
 </nav>
-<i className="fas fa-bolt fa-5x"></i>
-  <i className="fas fa-hard-hat fa-5x"></i>
-  <i className="fas fa-house-damage fa-5x"></i>
-  <i className="fas fa-laptop fa-5x"></i>
-  <i className="fas fa-plug fa-5x"></i>
-  <i className="fas fa-oil-can fa-5x"></i>
-  <i className="fas fa-toolbox fa-5x"></i>
-  <i className="fas fa-tools fa-5x"></i>
 </div>
 
     );
