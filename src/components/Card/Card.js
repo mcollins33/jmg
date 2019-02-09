@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
 
-<div className="container">
+<div className="container margin-top-50">
 	<div className="columns">
 		<div className="column">
 			<div className="card">
@@ -14,7 +14,7 @@ const Navbar = () => {
 				</div>
 				<div className="card-content">
 				    <div className="media-content">
-				        <p className="title is-4 red">Service</p>
+				        <p className="title is-4">Service</p>
 				    </div>
 					<div className="content dark">
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan 
@@ -34,7 +34,7 @@ const Navbar = () => {
 				</div>
 				<div className="card-content">
 				    <div className="media-content">
-				        <p className="title is-4 red">Service</p>
+				        <p className="title is-4">Service</p>
 				    </div>
 					<div className="content dark">
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan 
@@ -54,7 +54,7 @@ const Navbar = () => {
 				</div>
 				<div className="card-content">
 				    <div className="media-content">
-				        <p className="title is-4 red">Service</p>
+				        <p className="title is-4">Service</p>
 				    </div>
 					<div className="content dark">
 					   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan 
