@@ -5,14 +5,14 @@ const Hero = () => {
 
     return (
 
-<div id="hero" className="hero is-fullheight">
+<div id="hero" className="hero is-medium">
 	<div className="hero-body">
 		<div className="container has-text-centered">
-			<p className="title">
+			<p className="title white">
 				Say Something About Company
 			</p>
-			<p className="subtitle">
-				Say Something Else
+			<p className="subtitle white">
+
 			</p>
 		</div>
 	</div>

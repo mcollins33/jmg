@@ -5,11 +5,11 @@ const Footer = () => {
 
     return (
 
-<footer id="footer" class="footer">
-  <div class="content has-text-centered">
-   <p>© 2018 Miki Collins</p>
-  </div>
-</footer>
+<section id="footer" className="section">
+    <div className="container">
+    	<p>© 2018 Miki Collins</p>
+    </div>
+</section>
 
     );
 };

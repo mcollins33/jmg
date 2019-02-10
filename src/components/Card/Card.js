@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
 
-<div  id="card" className="container margin-top-100">
+<div id="card" className="container">
 	<div className="columns">
 		<div className="column">
 			<div className="card">

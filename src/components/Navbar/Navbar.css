@@ -12,10 +12,7 @@
 	padding-left: 25px;
 	padding-right: 25px;
 }
-.border-b {
-	border-bottom: 5px solid black;
-}
 
-.border-b:hover {
-	border-bottom: 5px solid red;
+.border:hover {
+	box-shadow: 0 1px 5px 1px #b00;
 }

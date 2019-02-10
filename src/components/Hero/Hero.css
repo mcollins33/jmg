@@ -1,5 +1,10 @@
 .hero-body {
-	background: url("../../assets/power2.jpg");
+	background: url("../../assets/power.jpg");
 	background-size: cover;
-	height: 600px;
+	height: 400px;
+	margin-top: 55px;
+}
+
+.white {
+	color: white;
 }
