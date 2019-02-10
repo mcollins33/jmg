@@ -1,18 +1,19 @@
 .card {
 	background-color: #e6e6e6;
-	box-shadow: 1px 1px 2px 2px red;
+	margin: 100px 10px;
+	padding: 20px;
+	border: 1.5px;
+	border-color: red;
+	border-style: groove;
 }
 
 .card:hover {
 	transform: scale(1.01);
+	box-shadow: 0 0 5px 1px #b00;
 }
 
 .fas, .far {
 	color: #b30000;
-}
-
-i {
-	margin-top: 25px;
 }
 
 .media-content {
